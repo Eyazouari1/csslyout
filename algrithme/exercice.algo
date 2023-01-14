@@ -1,0 +1,21 @@
+ALGORITHM CHekpoint1
+VAR
+    number-of-character:INTEGER=0;
+    number-of-words:INTEGER=1;
+    the number-of-vowels:INTEGER=0;
+    i:INTEGER;
+    s:STRING;
+BEGIN
+WHILE (s[i]<>".") DO
+    number_of_character++;
+IF (s[i]" ") THEN
+    the number_of_ words++;
+END_IF
+IF (s[i]="a"or s[i]="e"or s[i]="i"or s[i]="o"or s[i]="u"or s[i]="y"or s[i]="O"or s[i]="U"or s[i]="I"or s[i]="E"or s[i]="Y"or s[i]="A") THEN
+    the number_of_vowel++;
+END_IF
+END_WHILE
+    write("number_of_character is :",number_of_character);
+    write("number_of_ words is:", number_of_words);
+    write("number_of_vowels is :"the number_of_ vowels);
+END
